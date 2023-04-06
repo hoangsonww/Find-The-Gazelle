@@ -1,0 +1,43 @@
+html,
+body {
+    margin-top: 50px;
+    height: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.game {
+    position: relative;
+    display: inline-block;
+    height: 60%;
+}
+
+.game img {
+    cursor: pointer;
+}
+
+.game .safari {
+    margin-top: 50px;
+    height: 430.188px;
+    width: 573.578px;
+}
+
+.game .gazelle {
+    position: absolute;
+    top: 260px;
+    left: 231px;
+    z-index: 1;
+    max-height: 50px;
+    transition-property: max-height;
+    transition-duration: 750ms;
+    transition-timing-function: linear;
+}
+
+.game .gazelle:hover {
+    max-height: 180px;
+}
